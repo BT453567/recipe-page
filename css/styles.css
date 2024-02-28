@@ -26,8 +26,18 @@ body {
 }
 
 h2 {
+  font-family: 'OutfitVariable', sans-serif;
+  font-weight: var(--custom-font-weight);
+  color: var(--dark-raspberry);
+  font-size: 1.3em;
+}
+
+h3, h4, h5 {
   font-family: 'young-serif', sans-serif;
   color: var(--primary-nutmeg);
+  font-size: 1.6em;
+  margin-block-start: 1.2em;
+  margin-block-end: 0.8em;
 }
 
 hr {
@@ -77,11 +87,7 @@ tr:last-child td{
   font-family: 'young-serif', sans-serif;
 }
 
-.prep-time-heading {
-  font-family: 'OutfitVariable', sans-serif;
-  font-weight: var(--custom-font-weight);
-  color: var(--dark-raspberry);
-}
+
 
 .prep-time-list li::marker{
   color: var(--dark-raspberry);
